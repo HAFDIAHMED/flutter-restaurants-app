@@ -5,11 +5,10 @@ import './products.dart';
 class ProductManager extends StatefulWidget {
   final String startingProduct;
 
-  ProductManager(this.startingProduct);
+  ProductManager({this.startingProduct = 'Food Tester'});
 
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return _ProductManagerState();
   }
 }
